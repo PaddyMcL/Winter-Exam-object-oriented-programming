@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Winter_Exam"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        Loaded="Window_Loaded">
     <Grid>
+        <Label Content="Events" HorizontalAlignment="Left" Margin="69,61,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="lbxEvents" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="61,96,476,95"/>
+        <ListBox x:Name="lbxTickets" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="377,96,75,95"/>
+        <TextBox x:Name="tblkSearch" HorizontalAlignment="Left" Margin="204,69,0,0" TextWrapping="Wrap" Text="Search" VerticalAlignment="Top" Width="120" SelectionChanged="tblkSearch_SelectionChanged"/>
+        <Label Content="Tickets" HorizontalAlignment="Left" Margin="400,61,0,0" VerticalAlignment="Top"/>
+        <Label Content="Number of Tickets" HorizontalAlignment="Left" Margin="435,352,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tblkNumberOfTickets" HorizontalAlignment="Left" Margin="555,356,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnBook" Content="Book" HorizontalAlignment="Left" Margin="694,356,0,0" VerticalAlignment="Top" Click="btnBook_Click"/>
 
     </Grid>
 </Window>
