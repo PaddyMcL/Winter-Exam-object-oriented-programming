@@ -1,5 +1,6 @@
 ﻿//https://github.com/PaddyMcL/Winter-Exam-object-oriented-programming.git
-// I got the github created and added you as a collaberator but was unable to push the project from visual studio
+// I got the github created and added you as a collaberator but was unable to push the project from visual studio for a while as I had to configure my account
+// and it didn't tell me or give me the option until nearer the end of the exam which is why it is only one big push of all my code rather than in stages.
 
 using System.Text;
 using System.Windows;
