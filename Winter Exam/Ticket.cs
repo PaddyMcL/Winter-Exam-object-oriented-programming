@@ -54,7 +54,9 @@ namespace Winter_Exam
             //Input data for users
             public string VIPDetails()
             {
-                
+                string Person1 = Name = "Ticket and Hotel Package", Price = 105m.ToString(), AvaliableTickets = "100", additionalExtras = "4* hotel";
+                string Person2 = Name = "Weekend Ticket", Price = 200m.ToString(), AvaliableTickets = "100", additionalExtras = "with camping";
+                return Person1;
             }
         }
     }
